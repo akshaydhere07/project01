@@ -1,0 +1,270 @@
+/*
+Theme Name:   Gym
+Description:  Write here a brief description about your child-theme
+Author:       admin
+Author URL:   http://localhost:8080/gym
+Template:     twentytwentyone
+Version:      1.0
+License:      GNU General Public License v2 or later
+License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:  Gym
+*/
+
+
+/* Write here your own personal stylesheet */
+.elementor-location-header {
+    position: absolute;
+    display: block;
+    width: 100%;
+    z-index: 99;
+}
+.item-img .item-shape img {
+    /*position: absolute;
+    top: -65px;
+    right: 0;
+    z-index: -1;*/
+}
+.item-img {
+    /*position: relative;*/
+}
+.btn-style1 {
+    position: relative;
+    z-index: 5;
+    display: inline-block;
+}
+.btn-style1 .elementor-button-wrapper::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    border-width: 1px;
+    border-color: #d8d8d8;
+    border-style: solid;
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    z-index: -1;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+}
+.section-bg {
+    display: block;
+    position: relative !important;
+    text-align: center;
+    overflow: hidden;
+}
+.section-bg::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.5);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+.text-wrapper {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    bottom: 0;
+    z-index: 1;
+}
+.text-wrapper .elementor-widget-wrap {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+	display:block !important;
+}
+.btn-style1 .elementor-button-wrapper:hover:before {
+    top: 0;
+    left: 0;
+    border-color: #fff;
+}
+#banner-area .elementor-slide-button {
+    position: relative;
+    z-index: 5;
+    display: inline-block;
+}
+#banner-area .elementor-slide-button::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    border-width: 1px;
+    border-color: #d8d8d8;
+    border-style: solid;
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    z-index: -1;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+}
+#banner-area .elementor-slide-heading p{
+	font-family: "Montserrat", Sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 57.6px;
+    letter-spacing: 0px;
+}
+.subtitle {
+    font-size: 14px;
+    color: #fff;
+    position: relative;
+    line-height: 28px;
+    display: inline-block;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 0 40px;
+    letter-spacing: .1em;
+    -webkit-mask-image: url(http://localhost/gm/wp-content/uploads/2023/01/section-title-blue.png);
+    -webkit-mask-image: url(http://localhost/gm/wp-content/uploads/2023/01/section-title-blue.png);
+    mask-image: url(http://localhost/gm/wp-content/uploads/2023/01/section-title-blue.png);
+    -webkit-mask-size: 100%;
+    mask-size: 100%;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-position: center center;
+    mask-position: center center;
+    background-color: #00308F;
+}
+body{
+	background-color:#fff !important;
+}
+section#about-section:after {
+    position: absolute;
+    content: "";
+    width: 400px;
+    height: 650px;
+    right: 0px;
+    background-image: url(http://localhost/gm/wp-content/uploads/2023/01/about-1.png);
+    background-repeat: no-repeat;
+    bottom: -11px;
+    z-index: -1;
+}
+section#about-section {
+    position: relative;
+}
+.rouded-shape {
+    position: absolute;
+    bottom: 0;
+    top: 16px;
+    z-index: -1;
+    left: 100px;
+}
+.rouded-shape svg {
+    width: 650px;
+    height: 650px;
+}
+div#class-area:before {
+    content: "";
+    height: 234px;
+    width: 271px;
+    background-color: #e8e8e8;
+    position: absolute;
+    top: 38px;
+    right: -20px;
+    -webkit-clip-path: polygon(25% 0%,75% 0%,100% 50%,75% 100%,25% 100%,0% 50%);
+    clip-path: polygon(25% 0%,75% 0%,100% 50%,75% 100%,25% 100%,0% 50%);
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+div#class-area {
+    position: relative;
+}
+div#class-area .elementor-icon-box-icon .elementor-icon {
+    border-radius: 50%;
+    background-color: #646464;
+    -webkit-box-shadow: 0 6px 8px 0 rgb(0 0 0 / 15%);
+    box-shadow: 0 6px 8px rgb(0 0 0 / 15%);
+    height: 82px;
+    width: 82px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    line-height: 0;
+    z-index: 4;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+div#class-area .elementor-icon-box-content {
+    background-color: #fff !important;
+}
+div#class-area .elementor-icon-box-content {
+    min-height: 310px;
+    position: relative;
+    z-index: 3;
+    -webkit-clip-path: polygon(25% 0%,75% 0%,100% 50%,75% 100%,25% 100%,0% 50%);
+    clip-path: polygon(25% 0%,75% 0%,100% 50%,75% 100%,25% 100%,0% 50%);
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: #f7f7f7;
+    box-shadow: 0 1px 51px rgb(0 0 0 / 14%);
+    justify-content: center;
+}
+div#class-area:hover:before {
+    background-color: #00308F;
+}
+/* http://localhost/gm/wp-content/uploads/2023/01/c3-570x456-1.jpg
+http://localhost/gm/wp-content/uploads/2023/01/c4-570x456-1.jpg */
+
+.martial-arts .elementor-icon-box-content:hover {
+    background: linear-gradient(0deg, rgb(0 0 0 / 73%), rgb(0 0 0 / 11%)), url(http://localhost/gm/wp-content/uploads/2023/01/c4-570x456-1.jpg) !important;
+}
+.meditation .elementor-icon-box-content:hover {
+    background: linear-gradient(0deg, rgb(0 0 0 / 73%), rgb(0 0 0 / 11%)), url(http://localhost/gm/wp-content/uploads/2023/01/c3-570x456-1.jpg) !important;
+}
+div#class-area .elementor-icon-box-content:hover {
+    background: linear-gradient(0deg, rgb(0 0 0 / 73%), rgb(0 0 0 / 11%)), url(http://localhost/gm/wp-content/uploads/2023/01/c1-570x456-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .4s;
+	object-fit: cover;
+    filter: grayscale(100%);
+	background-position: center center !important;
+}
+div#class-area .elementor-icon-box-content:hover h3, div#class-area .elementor-icon-box-content:hover p {
+    color: #fff;
+}
+div#class-area .elementor-icon-box-title {
+    position: absolute;
+    top: 70px;
+}
+div#class-area .elementor-icon-box-content {
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    padding: 0 50px;
+}
+div#class-area .elementor-icon-box-wrapper:hover .elementor-icon {
+    background-color: #00308F !important;
+}
+#class-tab .elementor-tabs-wrapper .elementor-tab-title{
+	padding:20px 10px;
+}
+.elementor-tabs-wrapper .elementor-tab-title a {
+    background-color: #00308F;
+    border-color: #00308F;
+    padding: 15px 25px;
+    border-radius: 23px;
+    font-size: 17px;
+    color: #fff !important;
+}
+@media screen and (max-width: 481px) {
+	#banner-area .elementor-slide-heading p{
+		font-size: 21px;
+		font-weight: 400;
+		line-height: 29.6px;
+	}
+	.subtitle {
+		font-size: 9px;
+	}
+}
